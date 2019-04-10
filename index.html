@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="aartetxe">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Meeting Cost</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+    <div class="container">
+    	<div class="logo">
+            <h2>Participants</h2>
+            <p>Fill in the number of participants by category</p>
+            <input id="g1" type="text" placeholder="g1" aria-describedby="sizing-addon1"></br>
+            <input id="g2" type="text" placeholder="g2" aria-describedby="sizing-addon1"></br>
+            <input id="g3" type="text" placeholder="g3" aria-describedby="sizing-addon1"></br>
+            <input id="g4" type="text" placeholder="g4" aria-describedby="sizing-addon1"></br>
+            <input id="g5" type="text" placeholder="g5" aria-describedby="sizing-addon1">
+    	</div>
+        <div class="logo">
+            <button id="start-button" type="button" class="btn btn-primary btn-lg" >
+                <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Start
+            </button>
+            <button id="share-button" type="button" class="btn btn-primary btn-lg">
+                <span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share
+            </button>
+        </div>
+		<div class="row centered">
+			<div class="col-lg-8 col-lg-offset-2 w">
+                <h2 id="time"></h2>
+                <h1 id="cost">Let's calculate the cost of this meeting!</h1>
+			</div>
+		</div>
+	</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/meeting_calculator.js"></script>
+
+    <!--BACKSTRETCH-->
+    <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+    <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
+    <script>
+        $.backstretch("assets/img/bg.jpg", {speed: 500});
+    </script>
+
+  </body>
+</html>
